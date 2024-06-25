@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: Select the environment
+        description: Select the environment 
         type: environment
       redeploy_databases:
         default: false
